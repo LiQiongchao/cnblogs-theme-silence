@@ -1,0 +1,36 @@
+<script src="https://blog-static.cnblogs.com/files/caophoenix/silence.min.js"></script>
+<script type="text/javascript">
+    $.silence({
+	base: { //  基础信息
+            avatar: 'https://pic.cnblogs.com/avatar/1739828/20190812183832.png', //  博主头像 String
+            favicon: 'https://pic.cnblogs.com/face/1739828/20190812183832.png',  //  网页标题图标 String
+        },
+        catalog: {  //  博文目录
+            enable: true,   // 是否启用 boolean
+            move: true,     // 是否允许拖拽 boolean
+            index: true,    // 是否显示索引 boolean
+            level1: 'h2',   // 一级标题 String
+            level2: 'h3',   // 二级标题 String
+            level3: 'h4',   // 三级标题 String
+        },
+        signature: {    //  博文签名
+            enable: true,   // 是否启用 boolean
+            author: 'caoPhoenix',   //  作者名字 String
+            home: 'https://www.cnblogs.com/caophoenix/',    //  作者主页 String
+            license: 'CC BY 4.0',   //  许可证名称 String
+            link: 'https://creativecommons.org/licenses/by/4.0' //许可证链接 String
+        },
+        sponsor: {  //  博文赞赏
+            enable: false,   // 是否启用 boolean
+            paypal: null,   // PayPal 收款地址 String
+            alipay: null,   // 支付宝收款二维码 String
+            wechat: null    // 微信收款二维码 String
+        },
+        github: {   //  GitHub Corners
+            enable: true,   // 是否启用 boolean
+            fill: '#000',// 背景填充色 String
+            color: '#fff',  // 章鱼猫颜色 String
+            link: 'https://github.com/caoPhoenix'
+        }
+    });
+</script>
